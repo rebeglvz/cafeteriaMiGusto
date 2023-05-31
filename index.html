@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Gustito Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+</head>
+
+
+
+
+<body>
+
+
+
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Mi Gustito</a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="cafeteria/menu.png" alt="menu" class="menu-icono"></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Reservaciones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+
+
+
+            <div>
+            <ul>
+            <li class="submenu">
+            <img src="cafeteria/car.svg" alt="" id="img-carrito">
+            <div id="carrito">
+            <table id="lista-carrito">
+            <thead>
+              <tr>
+                    <th>Imagen</th>
+                     <th>Nombre</th>
+                     <th>Precio</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+
+
+
+
+                      </tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+        <div class="header-content container">
+            <h1>Cafetería <br> Mi Gustito</h1>
+            <p>La cafetería "Mi Gustito" nace en 2023 como un proyecto centrado en la pasión por el café y la relajación, aquí encuentras el sentido de la vida y el gusto por las nuevas experiencias</p>
+
+
+
+
+            <div class="botons">
+                <a href="#" class="btn-1">Mas Informacion</a>
+                <a href="#" class="btn-1">Menu</a>
+            </div>
+
+
+
+
+            <div class="socials-1">
+                <img src="cafeteria/s1.svg" alt="">
+                <img src="cafeteria/s2.svg" alt="">
+                <img src="cafeteria/s3.svg" alt="">
+            </div>
+
+
+
+
+            <a href="#lista">
+                <img class="arrow" src="cafeteria/arrow.svg" alt="">
+            </a>
+
+
+
+
+        </div>
+    </header>
+
+
+
+
+    <section class="recetas container">
+        <div class="recetas-1">
+            <h3>135 modos de preparar un café en Mi Gustito</h3>
+            <hr>
+            <p>Productos</p>
+        </div>
+        <div class="recetas-2">
+            <h2>100 <br> recetas <br> de café</h2>
+        </div>
+    </section>
+
+
+
+
+    <section class="platillos container" id="lista">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Parfait double</h3>
+                        <p class="precio">$15</p>
+                        <img src="cafeteria/parfait.png" alt="">
+                        <p>Déjate consentir por un clásico en nuestra cafetería ahora a precio de temporada</p>
+                        <a href="#" class="agregar-carrito btn2" data-id="1">Agregar al Carrito</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Brownie temptation</h3>
+                        <p class="precio">$20</p>
+                        <img src="cafeteria/brownie.png" alt="">
+                        <p>Desahógate con nuestra deliciosa combinación de 4 chocolates unidos en una pieza de cielo</p>
+                        <a href="#" class="agregar-carrito btn2" data-id="2">Agregar al Carrito</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Tarta "Mal de amores"</h3>
+                        <p class="precio">$25</p>
+                        <img src="cafeteria/tartachoc.jpg" alt="">
+                        <p>Disfruta de nuestra exquisita tarta de frutos silvestres con crema chantilli</p>
+                        <a href="#" class="agregar-carrito btn2" data-id="3">Agregar al Carrito</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Café Despertarse</h3>
+                        <p class="precio">$20</p>
+                        <img src="cafeteria/cafe4.png" alt="">
+                        <p>Tómate un momento y disfruta de nuestro postre estrella en estos tiempos de frío</p>
+                        <a href="#" class="agregar-carrito btn2" data-id="4">Agregar al Carrito</a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+       
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+
+
+    <section class="recetas container">
+        <div class="recetas-2">
+            <h2>150 <br> formas <br> de <br> degustar</h2>
+        </div>
+        <div class="recetas-1">
+            <h3>155 modos de saborear tus postres</h3>
+            <hr>
+            <p>Mi Gustito</p>
+        </div>
+    </section>
+
+
+
+
+    <section class="platillos container" id="lista-2">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Americano</h3>
+                        <p class="precio">$20</p>
+                        <img src="cafeteria/taza1.jpeg" alt="">
+                        <p class="c2">Perfecto para una mañana en la que necesites un empujoncito para retomar tus actividades</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al Carrito</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Espresso</h3>
+                        <p class="precio">$225</p>
+                        <img src="cafeteria/taza2.jpeg" alt="">
+                        <p class="c2">Deleita tu paladar con ese intenso sabor del café bien caliente en un sólo lugar</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al Carrito</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Latte</h3>
+                        <p class="precio">$18</p>
+                        <img src="cafeteria/taza3.jpeg" alt="">
+                        <p class="c2">Una perfecta combinación entre suave y fuerte que te llevarán a la calma total</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al Carrito</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Cappuccino</h3>
+                        <p class="precio">$28</p>
+                        <img src="cafeteria/taza4.jpeg" alt="">
+                        <p class="c2">Un clásico que podrás discfrutas con su espuma al punto y un fuerte toque de espresso</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="8">Agergar al Carrito</a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+
+
+    <section class="recetas container">
+
+
+
+
+        <div class="recetas-1">
+            <hr>
+            <p>Contacto</p>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer container">
+        <div class="links">
+            <div class="link">
+                <h3>Redes</h3>
+                <p>Puedes contactarnos en nuestras redes y llevarte la sorpresa de recibir un 20% de descuento al mencionarnos en tus publicaciones</p>
+                <div class="socials-2">
+                    <img src="cafeteria/s1.svg" alt="">
+                    <img src="cafeteria/s2.svg" alt="">
+                    <img src="cafeteria/s3.svg" alt="">
+                </div>
+            </div>
+            <div class="link">
+                <h3>Sucursales</h3>
+                <ul>
+                    <li><a href="#">Majadas C.C</a></li>
+                    <li><a href="#">Miraflores</a></li>
+                    <li><a href="#">Pradera Concepción</a></li>
+                    <li><a href="#">Avenida las Américas</a></li>
+                    <li><a href="#">Distrito Cayalá</a></li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="link">
+                <h3>¡Envíanos un correo electrónico!</h3>
+                <form action="">
+                    <input type="text" placeholder="Nombre" class="inp">
+                    <input type="email" placeholder="Email" class="inp">
+                    <textarea class="inp"></textarea>
+                    <input type="submit" value="Enviar" class="btn-4">
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="functions.js"></script>
+</body>
+
+
+
+
+</html>
+
+
